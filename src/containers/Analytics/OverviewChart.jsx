@@ -81,8 +81,7 @@ const styles = {
   },
   container: {
     mt: 4,
-    width: {xs: '60%',sm: '100%' },
-    width: 100,
+    width: { xs: '60%', sm: '100%' },
   }
 };
 export default OverviewCharts

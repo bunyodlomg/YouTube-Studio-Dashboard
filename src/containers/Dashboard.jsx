@@ -22,7 +22,7 @@ const Dashboard = () => {
             <Typography variant="cardTitle">Latest Post</Typography>
             <Box sx={styles.postSuthorSection}>
               <Avatar
-                sx={styles.avatar}
+                sx={styles.avtr}
                 src="https://yt3.googleusercontent.com/W5eTz0TA-pNz19j5NqEjQxbtNmFY1opQDztBDve221N01mp6mV4YeWvLfFRspyGWo9yAm75QfQ=s176-c-k-c0x00ffffff-no-rj"
               />
               <Typography sx={styles.postMeta}>Bunyod</Typography>
@@ -113,7 +113,7 @@ const Dashboard = () => {
             </ColorText>
             <Box sx={styles.commentRow}>
               <Avatar
-                sx={styles.avatar}
+                sx={styles.avtr}
                 alt="Bunyod"
                 src="https://yt3.googleusercontent.com/W5eTz0TA-pNz19j5NqEjQxbtNmFY1opQDztBDve221N01mp6mV4YeWvLfFRspyGWo9yAm75QfQ=s176-c-k-c0x00ffffff-no-rj"
               />
@@ -133,7 +133,7 @@ const Dashboard = () => {
             <Divider sx={styles.divider} />
             <Box sx={styles.commentRow}>
               <Avatar
-                sx={styles.avatar}
+                sx={styles.avtr}
                 alt="Bunyod"
                 src="https://yt3.googleusercontent.com/W5eTz0TA-pNz19j5NqEjQxbtNmFY1opQDztBDve221N01mp6mV4YeWvLfFRspyGWo9yAm75QfQ=s176-c-k-c0x00ffffff-no-rj"
               />
@@ -251,7 +251,7 @@ const styles = {
     alignItems: "center",
     my: 3,
   },
-  avatar: {
+  avtr: {
     width: "30px",
     height: "auto",
     mr: 1,
@@ -263,11 +263,6 @@ const styles = {
   },
   divider: {
     my: 2,
-  },
-  postStats: {
-    display: "grid",
-    gridTemplateColumns: "1fr 1fr",
-    my: 3,
   },
   cardAction: {
     mt: 2,
@@ -294,25 +289,16 @@ const styles = {
     fontWeight: 500,
     my: 2,
   },
-  avatar: {
-    width: "30px",
-    height: "auto",
-    marginRight: 1,
-  },
   postStats: {
     display: "grid",
     gridTemplateColumns: "1fr 1fr",
     gridAutoRows: "25px",
+    my: 3,
   },
   postAuthorSection: {
     display: "flex",
     alignItems: "center",
     my: 3,
-  },
-  postMeta: {
-    mr: 1,
-    fontSize: "0.8rem",
-    color: "neutral.normal",
   },
   videoThumbnail: {
     width: 80,
